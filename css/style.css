@@ -43,3 +43,25 @@ body{
 .navbar-brand p span{
     vertical-align: middle;
 }
+
+#nav-list{
+    margin-top: 0;
+}
+#nav-list a{
+    color: #951c49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+    border-radius: 5%;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#phone{
+    margin-top: 5px;
+}
+#phone a{
+
+}
