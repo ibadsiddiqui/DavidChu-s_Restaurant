@@ -85,25 +85,53 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #3F0C1F;
 }
 
+/*Home Tiles*/
 #menu-tile, 
 #special-tile, 
 #map-tile{
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
   border: 2px solid #3F0C1F;
+  height: 250px;
+  margin-bottom: 15px;
   overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 #menu-tile:hover,
 #special-tile:hover,
 #map-tile:hover{
   box-shadow: 0 1px 5px 1px #ccccff;
+}
+/* End Here */
+/* menu image*/
+#menu-tile{
+  background: url("../images/menu-tile.jpg") no-repeat;
+  background-position: center ;
+}
+
+#special-tile{
+  background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center ;
+}
+/* End images here*/
+
+#menu-tile span,
+#special-tile span,
+#map-tile span{
+  background: #111 ;
+  bottom: 0;
+  color: #fff;
+  font-size: 1.6em;
+  opacity: .8;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 
@@ -123,9 +151,9 @@ body {
   /* Header */
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
+    width: 100px;
   }
   /* End Header */
 
@@ -176,18 +204,18 @@ body {
   }
 
   #call-btn > a {
-    font-size: 1.5em;
+    background-color: #f6b319;
+    border: 2px solid #fff;
+    color: #951c49;
     display: block;
+    font-size: 1.5em;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
   }
   #xs-deliver {
-    margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
+    margin-top: 5px;
     text-transform: uppercase;
   }
   /* End Header */
