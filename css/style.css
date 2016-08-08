@@ -107,7 +107,7 @@ body{
 @media(max-width:767px){
     /* Header */
     .navbar-brand{
-        padding-top: 10px;
+        padding-top: 10px;  
         height: 80px;
     }
     
@@ -126,5 +126,15 @@ body{
     /* Star-K image*/
     .navbar-brand p img{
         height: 20px;
+    }
+    
+    /*collapse menu size*/
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
     }
 }
