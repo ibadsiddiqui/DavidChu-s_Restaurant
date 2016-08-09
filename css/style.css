@@ -133,9 +133,46 @@ body {
   text-transform: uppercase;
   width: 100%;
 }
+/* End Header*/
 
+/* Footer */
+.panel-footer{
+  background: #222;
+  border-top: 0;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
 
-/* END HOME PAGE */
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+
+#hours,
+#address{
+  line-height: 2;
+}
+
+#hours > span,
+#address > span{
+  font-size: 1.3em;
+}
+
+#address p{
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials{
+  font-style: italic;
+}
+
+#testimonials p::nth-child(2){
+  margin-top: 25px;
+}
+
+/* END HOME PAGE 
 
 
 /********** Large devices only **********/
@@ -225,5 +262,30 @@ body {
     margin-top: 30px;
     padding: 0;
   }
+
+  #menu-tile, #special-tile{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+
+/*********** Super Extra smaill Devices ;ole Iphone etc ***/
+@media (max-width:479px){
+
+  /* Header */
+  .navbar-brand h1{
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */   
+
+    /* Home Page */
+  #menu-tile, #special-tile{
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  
 
 }
