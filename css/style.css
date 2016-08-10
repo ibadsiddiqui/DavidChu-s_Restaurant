@@ -174,6 +174,36 @@ body {
 
 /* END HOME PAGE 
 
+/* Menu Categories Page */
+.category-tile{
+  border: 2px solid #3F0C1F;
+  height: 200px;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+.category-tile span{
+  background: #000;
+  bottom: 0;
+  color: #fff;
+  font-size: 1.2em;
+  opacity: .8;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 1px 5px 1px  rgb(0, 0, 0);
+}
+
+#menu-category-tile + div{
+  margin-bottom: 50px;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -217,12 +247,12 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
     height: 80px;
+    padding-top: 10px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
+    padding-top: 10px;
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;
@@ -279,8 +309,8 @@ body {
 
 
   #menu-tile, #special-tile{
-    width: 360px;
     margin: 0 auto 15px;
+    width: 360px;
   }
 }
 
@@ -290,17 +320,15 @@ body {
 
   /* Header */
   .navbar-brand h1{
-    padding-top: 5px;
     font-size: 6vw;
+    padding-top: 5px;
   }
   /* End Header */   
 
     /* Home Page */
   #menu-tile, #special-tile{
-    width: 280px;
     margin: 0 auto 15px;
+    width: 280px;
   }
-
-  
 
 }
